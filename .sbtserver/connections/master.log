@@ -1,0 +1,13 @@
+New log file opened at Mon Oct 31 10:59:18 EDT 2016 by 5144@E5450-H5XRT32
+Taking next connection to: 52688
+New client attempting to connect on port: 52689-52688
+  Address = /172.31.232.148:52688
+This client on port 52689 has uuid 14fd27d4-77b1-406b-8c33-d0756ea1132d configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-14fd27d4-77b1-406b-8c33-d0756ea1132d
+Taking next connection to: 52688
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 52688
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 52688

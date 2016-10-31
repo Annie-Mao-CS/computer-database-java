@@ -1,0 +1,28 @@
+@(speciesForm: Form[Species])
+
+@import helper._
+
+@implicitFieldConstructor = @{ FieldConstructor(twitterBootstrapInput.render) } 
+
+@main {
+    
+    <h1>Add a species</h1>
+    
+    @form(routes.Application.save()) {
+        
+        <fieldset>
+        
+            @inputText(speciesForm("scientificName"), '_label -> "Species name", '_help -> "")
+
+            
+
+        </fieldset>
+        
+        <div class="actions">
+            <input type="submit" value="Create this species" class="btn primary"> or 
+            <a href="@routes.Application.list()" class="btn">Cancel</a> 
+        </div>
+        
+    }
+    
+}
