@@ -1,5 +1,5 @@
 # Messages
 
-species.list.title={0,choice,0#No species|1#One species|1<{0,number,integer} species} found
+computer.list.title={0,choice,0#No computer|1#One computer|1<{0,number,integer} computer} found
 
 

@@ -1,4 +1,4 @@
-@(speciesForm: Form[Species])
+@(computerForm: Form[Computer])
 
 @import helper._
 
@@ -6,20 +6,28 @@
 
 @main {
     
-    <h1>Add a species</h1>
+    <h1>Add a computer</h1>
     
     @form(routes.Application.save()) {
         
         <fieldset>
         
-            @inputText(speciesForm("scientificName"), '_label -> "Species name", '_help -> "")
+            @inputText(computerForm("name"), '_label -> "Computer name", '_help -> "")
+            @inputDate(computerForm("introduced"), '_label -> "Introduced date", '_help -> "")
+            @inputDate(computerForm("discontinued"), '_label -> "Discontinued date", '_help -> "")
 
+            @select(
+                computerForm("company.id"), 
+                options(Company.options), 
+                '_label -> "Company", '_default -> "-- Choose a company --",
+                '_showConstraints -> false
+            )
             
 
         </fieldset>
         
         <div class="actions">
-            <input type="submit" value="Create this species" class="btn primary"> or 
+            <input type="submit" value="Create this computer" class="btn primary"> or 
             <a href="@routes.Application.list()" class="btn">Cancel</a> 
         </div>
         

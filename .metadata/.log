@@ -1,0 +1,17 @@
+!SESSION 2016-10-31 11:48:34.647 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_CA
+Framework arguments:  -product org.eclipse.epp.package.java.product -vm C:\Program Files\Java\jdk1.8.0_51\bin\javaw.exe -product org.eclipse.epp.package.java.product -vm C:\Program Files\Java\jdk1.8.0_51\bin\javaw.exe -product org.eclipse.epp.package.java.product -vm C:\Program Files\Java\jdk1.8.0_51\bin\javaw.exe -product org.eclipse.epp.package.java.product -vm C:\Program Files\Java\jdk1.8.0_51\bin\javaw.exe
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -vm C:\Program Files\Java\jdk1.8.0_51\bin\javaw.exe -product org.eclipse.epp.package.java.product -vm C:\Program Files\Java\jdk1.8.0_51\bin\javaw.exe -product org.eclipse.epp.package.java.product -vm C:\Program Files\Java\jdk1.8.0_51\bin\javaw.exe -data C:\Users\CSuser.E5450-H5XRT32\workspace\computer-database-java -product org.eclipse.epp.package.java.product -vm C:\Program Files\Java\jdk1.8.0_51\bin\javaw.exe
+
+!ENTRY org.eclipse.epp.logging.aeri.ui 1 4 2016-10-31 11:49:04.716
+!MESSAGE The error reporting server is not available. Error reporting will be disabled until next restart. Version: 1.0.0.v20150617-0732
+!STACK 0
+org.eclipse.epp.internal.logging.aeri.ui.l10n.Logs$LogTraceException
+	at org.eclipse.epp.internal.logging.aeri.ui.l10n.Logs$LogTraceException.newTrace(Logs.java:382)
+	at org.eclipse.epp.internal.logging.aeri.ui.l10n.Logs.log(Logs.java:134)
+	at org.eclipse.epp.internal.logging.aeri.ui.l10n.Logs.log(Logs.java:126)
+	at org.eclipse.epp.internal.logging.aeri.ui.log.CheckServerAvailabilityJob.run(CheckServerAvailabilityJob.java:53)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)

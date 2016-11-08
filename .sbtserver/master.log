@@ -1,5 +1,5 @@
-New log file opened at Mon Oct 31 10:59:17 EDT 2016 by 5144@E5450-H5XRT32
-jvm 5144@E5450-H5XRT32
+New log file opened at Tue Nov 08 11:29:56 EST 2016 by 7932@E5450-H5XRT32
+jvm 7932@E5450-H5XRT32
 jvm vmName=Java HotSpot(TM) 64-Bit Server VM vmVendor=Oracle Corporation vmVersion=25.51-b03
 jvm specName=Java Virtual Machine Specification specVendor=Oracle Corporation specVersion=1.8
 jvm arguments: [-Xms256m, -Xmx1024m, -XX:MetaspaceSize=64m, -XX:MaxMetaspaceSize=256m]
@@ -27,7 +27,7 @@ sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.Jvm
   :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
 [Loading] Done in C:\Users\CSuser.E5450-H5XRT32\workspace\computer-database-java\project, returning: (computer-database-java-build)
 Loading project definition from C:\Users\CSuser.E5450-H5XRT32\workspace\computer-database-java\project
-Running task... Cancel: sbt.TaskCancellationStrategy$Null$@4ac8147f, check cycles: false
+Running task... Cancel: sbt.TaskCancellationStrategy$Null$@eecf48f, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -65,59 +65,10 @@ Set current project to computer-database-java (in build file:/C:/Users/CSuser.E5
 > iflast shell
 > server-send-ready-for-request
 > server-handle-next-server-request
-> {file:/C:/Users/CSuser.E5450-H5XRT32/workspace/computer-database-java/}root/compile:discoveredMainClasses
-Evaluating tasks: compile:discoveredMainClasses
-Running task... Cancel: sbt.server.ServerTaskCancellation@3e768e7, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set()
-
-Total time: 7 s, completed 31-Oct-2016 10:59:55 AM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/C:/Users/CSuser.E5450-H5XRT32/workspace/computer-database-java/}root/compile:mainClass
-Evaluating tasks: compile:mainClass
-Running task... Cancel: sbt.server.ServerTaskCancellation@4f1f168a, check cycles: false
-Total time: 0 s, completed 31-Oct-2016 10:59:55 AM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/C:/Users/CSuser.E5450-H5XRT32/workspace/computer-database-java/}root/compile:discoveredMainClasses
-Evaluating tasks: compile:discoveredMainClasses
-Running task... Cancel: sbt.server.ServerTaskCancellation@b0bf6b9, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set()
-
-Total time: 1 s, completed 31-Oct-2016 10:59:57 AM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/C:/Users/CSuser.E5450-H5XRT32/workspace/computer-database-java/}root/compile:mainClass
-Evaluating tasks: compile:mainClass
-Running task... Cancel: sbt.server.ServerTaskCancellation@48be6bb0, check cycles: false
-Total time: 0 s, completed 31-Oct-2016 10:59:57 AM
-> server-post-command-cleanup
-> server-handle-next-server-request
+Done executing sbt server engine, result Right(Exit(0))
+Closing listening server socket
+Waiting for socket thread
+Waiting for request processor thread
+Waiting for command engine result
+Returning control to sbt launcher with result Exit(0)
+Closing the 7932@E5450-H5XRT32 logs at Tue Nov 08 11:32:57 EST 2016, goodbye.
